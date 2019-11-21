@@ -1,7 +1,8 @@
 <!DOCTYPE html> <!-- DOCTYPE是document type的縮寫,而建立此宣告是用來讓網頁標準化,讓瀏覽器以這個DTD來編譯程式碼. -->
 <html lang="en-US"> <!-- 意思是語言是英文 -->
   <head>
-
+    <meta charset="utf-8">  <!-- utf-8是萬國碼,用來防止亂碼,表示當前文檔的字符集是採用utf-8的字符,
+                              也是我們常說的英文字符集,其中就包括中文,如果沒打的話,中文會變成亂碼. -->
     <title>JavaScript label example</title> <!-- 標題 -->
     <style>
       p {
@@ -21,7 +22,7 @@
     </style>
   </head>
   <body>
-    <p>Player 1: 哈哈哈</p>
+    <p>Player 1: Chris</p>
 
     <script>
       const para = document.querySelector('p');
