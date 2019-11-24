@@ -33,7 +33,7 @@
                                    inline:所有圖片或文字均不換行,也就是全部都會是同一行的意思  span、a、input、img、em 均屬 inline-->
                                    inline-block:display:inline-block 的效果與 display:inline 有點類似，
                                      不過 display:inline-block 可以設定元素的寬度與高度，功能比較強大。*/
-        cursor: pointer;
+        cursor: pointer; /* 定義滑鼠指到cursor定義的程式碼內容時的樣式 http://www.flycan.com/article/css/css-cursor-209.html */
       }
     </style>
   </head>
@@ -41,7 +41,7 @@
     <p>Player 1: Chris</p>
 
     <script>
-      const para = document.querySelector('p');
+      const para = document.querySelector('p'); /* 用來宣告一個常數 */
       para.addEventListener('click', updateName);
       function updateName() {
         let name = prompt('Enter a new name');
