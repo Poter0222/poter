@@ -42,7 +42,7 @@
 
     <script>
       const para = document.querySelector('p'); /* 用來宣告一個常數 */
-      para.addEventListener('click', updateName);
+      para.addEventListener('click', updateName); /* 將指定的事件監聽器註冊到EventTarget實作物件上 */
       function updateName() {
         let name = prompt('Enter a new name');
         para.textContent = 'Player 1: ' + name;
