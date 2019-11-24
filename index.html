@@ -6,30 +6,30 @@
     <title>JavaScript label example</title> <!-- 標題 -->
     <style>
       p {
-        font-family: 'helvetica neue', helvetica, sans-serif; <!-- 定義文字樣式 -->
+        font-family: 'helvetica neue', helvetica, sans-serif; <!-- 定義文字樣式 -->  
         letter-spacing: 1px; <!-- 文字之間的間隔ㄝ,可用負值. -->
         text-transform: uppercase; <!-- 定義文字的大小寫. uppercase為大寫 lowercase為小寫 capitalize為首字母大寫其餘小寫-->
         text-align: center; <!-- 定義文字的位子. center為中間; left為向左對齊; right為向右對齊; 
                                   justify為使左右對齊文本; inherit 為繼承父元素的text-align屬性.
-        border: 2px solid rgba(0,0,200,0.6);<!-- 定義 邊框粗細; 邊框顏色; 邊框樣式 -->
+        border: 2px solid rgba(0,0,200,0.6); <!-- 定義 邊框粗細; 邊框顏色; 邊框樣式 -->
         background: rgba(0,0,200,0.3); <!-- 用來設計背景顏色 -->
-        color: rgba(0,0,200,0.6);<!-- 定義文字顏色,而rgba(0,0,200,0.6)括弧內分別代表(red,green,blue,opacity)red,green,blue為顏色值
+        color: rgba(0,0,200,0.6); <!-- 定義文字顏色,而rgba(0,0,200,0.6)括弧內分別代表(red,green,blue,opacity)red,green,blue為顏色值
                                      由百分比or10進位計算; opacity為不透明度運許的值為0~1. -->
-        box-shadow: 1px 1px 2px rgba(0,0,200,0.4);<!--  為box-shadow:inset offset-x offset-y blur-radius spread-radius 陰影顏色;
+        box-shadow: 1px 1px 2px rgba(0,0,200,0.4); <!--  為box-shadow:inset offset-x offset-y blur-radius spread-radius 陰影顏色;
                                                         inset：用來設定內陰影，選擇性項目，無填寫代表呈現為外陰影。
                                                         offset-x：x 軸方向的陰影大小，單位為長度單位，如 em、px 等。
                                                         offset-y：y 軸方向的陰影大小，單位為長度單位，如 em、px 等。
                                                         blur-radius：模糊半徑，選擇性項目，未填寫則為預設值零。
                                                         spread-radius：擴散半徑，選擇性項目，未填寫則為預設值零。
                                                         陰影顏色：必要項目，自行決定陰影的顏色。        
-        border-radius: 10px;<!-- 為圓角功能,能讓四個角變成圓角,因為預設為直角.數值分別為 左上 右上 右下 左下 .若只寫一個值則代表每一個角的值-->
+        border-radius: 10px; <!-- 為圓角功能,能讓四個角變成圓角,因為預設為直角.數值分別為 左上 右上 右下 左下 .若只寫一個值則代表每一個角的值-->
                                  10px則代表圓角半徑為10px -->
-        padding: 3px 10px;<!-- 為字或圖片離邊框的距離有許多寫法,
+        padding: 3px 10px; <!-- 為字或圖片離邊框的距離有許多寫法,
                            只寫四個值分別代表 上 右 下 左
                                三個值分別代表 上 左右 下
                                兩個值分別代表 上下 左右                                
                                一個值為四邊同樣個值. -->
-        display: inline-block;<!-- block:區塊,元素會以區塊方式進行,除非設定position和float ;div、p、ul、li 均屬 block
+        display: inline-block; <!-- block:區塊,元素會以區塊方式進行,除非設定position和float ;div、p、ul、li 均屬 block
                                    inline:所有圖片或文字均不換行,也就是全部都會是同一行的意思  span、a、input、img、em 均屬 inline-->
                                    inline-block:display:inline-block 的效果與 display:inline 有點類似，
                                      不過 display:inline-block 可以設定元素的寬度與高度，功能比較強大。-->
