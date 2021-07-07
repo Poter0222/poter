@@ -1,4 +1,0 @@
-hello file
-second line
-測試中文
-再次測試
